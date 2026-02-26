@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.agent.web.UserControllerIT" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-02-26T15:15:01.509Z" hostname="DESKTOP-OGMJR52" time="1.937">
+<testsuite name="com.example.agent.web.UserControllerIT" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-02-26T15:23:38.167Z" hostname="DESKTOP-OGMJR52" time="2.153">
   <properties/>
-  <testcase name="should_create_and_get_user()" classname="com.example.agent.web.UserControllerIT" time="1.937"/>
-  <system-out><![CDATA[16:14:54.466 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.agent.web.UserControllerIT]: UserControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-16:14:54.731 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.agent.AgentApplication for test class com.example.agent.web.UserControllerIT
+  <testcase name="should_create_and_get_user()" classname="com.example.agent.web.UserControllerIT" time="2.153"/>
+  <system-out><![CDATA[16:23:29.151 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.agent.web.UserControllerIT]: UserControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:23:29.532 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.agent.AgentApplication for test class com.example.agent.web.UserControllerIT
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -14,21 +14,21 @@
 
  :: Spring Boot ::                (v3.3.5)
 
-2026-02-26T16:14:55.701+01:00  INFO 13896 --- [    Test worker] com.example.agent.web.UserControllerIT   : Starting UserControllerIT using Java 21.0.10 with PID 13896 (started by Kewe in C:\Users\Kewe\IdeaProjects\lab_mcp_ai_agent_springboot\agent)
-2026-02-26T16:14:55.712+01:00  INFO 13896 --- [    Test worker] com.example.agent.web.UserControllerIT   : The following 1 profile is active: "ci"
-2026-02-26T16:14:58.610+01:00  INFO 13896 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
-2026-02-26T16:14:58.631+01:00  INFO 13896 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-02-26T16:14:58.631+01:00  INFO 13896 --- [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
-2026-02-26T16:14:58.783+01:00  INFO 13896 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-02-26T16:14:58.789+01:00  INFO 13896 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3018 ms
+2026-02-26T16:23:30.766+01:00  INFO 32324 --- [    Test worker] com.example.agent.web.UserControllerIT   : Starting UserControllerIT using Java 21.0.10 with PID 32324 (started by Kewe in C:\Users\Kewe\IdeaProjects\lab_mcp_ai_agent_springboot\agent)
+2026-02-26T16:23:30.772+01:00  INFO 32324 --- [    Test worker] com.example.agent.web.UserControllerIT   : The following 1 profile is active: "ci"
+2026-02-26T16:23:33.961+01:00  INFO 32324 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
+2026-02-26T16:23:33.987+01:00  INFO 32324 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-02-26T16:23:33.987+01:00  INFO 32324 --- [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2026-02-26T16:23:34.112+01:00  INFO 32324 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-02-26T16:23:34.112+01:00  INFO 32324 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3269 ms
 === Agent tools loaded: 1 ===
  - com.example.agent.tools.GitHubMcpTools
-2026-02-26T16:15:01.115+01:00  INFO 13896 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoints beneath base path '/actuator'
-2026-02-26T16:15:01.263+01:00  INFO 13896 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 63251 (http) with context path '/'
-2026-02-26T16:15:01.282+01:00  INFO 13896 --- [    Test worker] com.example.agent.web.UserControllerIT   : Started UserControllerIT in 6.281 seconds (process running for 9.086)
-2026-02-26T16:15:03.154+01:00  INFO 13896 --- [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-02-26T16:15:03.155+01:00  INFO 13896 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-02-26T16:15:03.155+01:00  INFO 13896 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-02-26T16:23:37.544+01:00  INFO 32324 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoints beneath base path '/actuator'
+2026-02-26T16:23:37.803+01:00  INFO 32324 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 61768 (http) with context path '/'
+2026-02-26T16:23:37.834+01:00  INFO 32324 --- [    Test worker] com.example.agent.web.UserControllerIT   : Started UserControllerIT in 7.851 seconds (process running for 13.962)
+2026-02-26T16:23:39.882+01:00  INFO 32324 --- [o-auto-1-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-26T16:23:39.882+01:00  INFO 32324 --- [o-auto-1-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-02-26T16:23:39.885+01:00  INFO 32324 --- [o-auto-1-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
 ]]></system-out>
   <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\Kewe\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.14.19\154da3a65b4f4a909d3e5bdec55d1b2b4cbb6ce1\byte-buddy-agent-1.14.19.jar)
 WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
