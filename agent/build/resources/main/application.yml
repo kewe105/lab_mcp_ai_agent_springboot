@@ -1,6 +1,6 @@
 github:
-  owner: ${GITHUB_OWNER}
-  repo: ${GITHUB_REPO}
+  owner: ${GITHUB_OWNER:}
+  repo: ${GITHUB_REPO:}
 
 anthropic:
   api-key: ${ANTHROPIC_API_KEY}
